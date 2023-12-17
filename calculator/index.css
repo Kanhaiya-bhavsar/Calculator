@@ -1,0 +1,43 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+   background-image: url(img/bg.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   
+}
+input{
+    
+    width: 91%;
+    margin: 10px;
+    font-size: 40px;
+    margin-top: 20px;
+   
+   
+}
+.box{
+    margin-top: 50px;
+ height: 520px;
+ background-color: rgb(255, 255, 255);
+ width: 300px; 
+ background-image: url(img/calbg.png);
+}
+.buttonscon{
+    display: flex;
+     justify-content:center; 
+     flex-wrap: wrap;
+  margin: 10px 20px;
+  
+.button{
+    height: 70px;
+    width: 80px;
+  margin: 1px; 
+  background-color: rgb(255, 255, 255);
+
+  
+}

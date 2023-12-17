@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="box">
+        <input type="text" id="disview" readonly>
+        <div class="buttonscon">
+            <button class="button" onclick="mvalue='';
+            document.querySelector('#disview').value=mvalue";>c</button>  
+             <button class="button" onclick="mvalue+='1';
+             document.querySelector('#disview').value=mvalue";>1</button>
+             <button class="button" onclick="mvalue+='2';
+          document.querySelector('#disview').value=mvalue";>2</button>
+           <button class="button" onclick="mvalue+='+';
+           document.querySelector('#disview').value=mvalue";>+</button>
+            <button class="button" onclick="mvalue+='3';
+            document.querySelector('#disview').value=mvalue";>3</button>
+             <button class="button" onclick="mvalue+='4';
+             document.querySelector('#disview').value=mvalue";>4</button>
+              <button class="button" onclick="mvalue+='-';
+              document.querySelector('#disview').value=mvalue";>-</button>
+               <button class="button" onclick="mvalue+='5';
+               document.querySelector('#disview').value=mvalue";>5</button>
+                <button class="button" onclick="mvalue+='6';
+                document.querySelector('#disview').value=mvalue";>6</button>
+                 <button class="button" onclick="mvalue+='*';
+                 document.querySelector('#disview').value=mvalue";>*</button>
+                  <button class="button" onclick="mvalue+='7';
+                  document.querySelector('#disview').value=mvalue";>7</button>
+                   <button class="button" onclick="mvalue+='8';
+                   document.querySelector('#disview').value=mvalue";>8</button>
+                    <button class="button" onclick="mvalue+='/';
+                    document.querySelector('#disview').value=mvalue";>/</button>
+
+                     <button class="button" onclick="mvalue=eval(mvalue);
+                      document.querySelector('#disview').value=mvalue";>=</button>
+
+                      <button class="button" onclick="mvalue+='9';
+                      document.querySelector('#disview').value=mvalue";>9</button>
+                       <button class="button" onclick="mvalue+='0';
+                       document.querySelector('#disview').value=mvalue";>0</button>
+                         <button class="button" onclick="mvalue+='.';
+                         document.querySelector('#disview').value=mvalue";>.</button>
+
+        
+        </div>  
+
+    </div>
+    <script >
+        let mvalue='';
+        document.querySelector('#disview').value=mvalue;
+    </script>
+</body>
+</html>
